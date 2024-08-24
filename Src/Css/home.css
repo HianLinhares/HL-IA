@@ -1,0 +1,53 @@
+.home{
+    display: flex;
+    min-height: calc(100vh - 91px);
+}
+
+.cta{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin-top: 5%;
+}
+
+
+.title{
+    font-size: 4rem;
+    color: black;
+    font-weight: 300; 
+}
+
+span{
+   font-weight: 900; 
+}
+
+.description{
+    font-size: 1.2rem;
+}
+
+.banner{
+    margin-left: 80px;
+}
+
+.foto_time{
+    display: flex;
+    border: 1px solid ; /* Borda sólida roxa de 5px */
+    border-radius: 0 100px 0 100px;
+    box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.4); /* Sombra */
+    max-width: 100%;
+    min-width: 50%;
+    height: auto;
+    justify-content: end;
+}
+
+#instagram, #x , #twitch{
+    font-size: 32px;
+    color: black;
+    margin-left: 16px;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}

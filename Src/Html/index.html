@@ -1,11 +1,196 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Furia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="/Src/Img/Furia_Esports_logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="/Src/Css/Style.css">
+    <link rel="stylesheet" href="/Src/Css/header.css">
+    <link rel="stylesheet" href="/Src/Css/home.css">
+    <link rel="stylesheet" href="/Src/Css/players.css">
+    <script src="/Src/Javascript/script.js"></script>
+    <!-- Link para os ícones font awesome cdn librarys -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Link para o JQUERY -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Furia LOL</title>
 </head>
+
 <body>
-    
+    <header>
+        <nav class="navbar">
+            <img src="/Src/Img/Furia_Esports_logo.png" alt="Logo da Furia" class=nav_logo>
+
+            <ul class="nav_list">
+                <li class="nav_item active">
+                    <a href="#home">Inicio</a>
+                </li>
+
+                <li class="nav_item">
+                    <a href="#Time">Time</a>
+                </li>
+
+                <li class="nav_item">
+                    <a href="#Sobre a Furia LoL">Sobre a Furia LoL</a>
+                </li>
+
+                <li class="nav_item">
+                    <a href="#Calendário">Calendário</a>
+                </li>
+            </ul>
+            <button class="btn-default"> Descubra sobre a Furia LOL</button>
+            <button class="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div class="mobile_menu">
+            <ul class="mobile_nav_list">
+                <li class="nav_item">
+                    <a href="#home">Inicio</a>
+                </li>
+
+                <li class="nav_item">
+                    <a href="#Time">Time</a>
+                </li>
+
+                <li class="nav_item">
+                    <a href="#Sobre a Furia LoL">Sobre a Furia LoL</a>
+                </li>
+
+                <li class="nav_item">
+                    <a href="#Calendário">Calendário</a>
+                </li>
+            </ul>
+            <button class="mobile_btn-default"> Descubra sobre a Furia LOL</button>
+        </div>
+
+    </header>
+
+    <main class="content">
+        <section class="home">
+            <div class="shape"></div>
+            <div class="cta">
+                <h1 class="title">Vamo
+                    <span>Furia</span>
+                </h1>
+                <p class="description">Conheça a FURIA LOL. FURIA Esports é uma organização brasileira de esportes
+                    eletrônicos
+                    fundada no ano de 2017. Atualmente, ela possui enorme notoriedade por ser a melhor equipe do Brasil
+                </p>
+
+                <div class="social">
+                    <a href="https://www.instagram.com/furiagg/" target="_blank">
+                        <i class="fa-brands fa-instagram" id="instagram"></i>
+                    </a>
+
+                    <a href="https://x.com/FURIA" target="_blank">
+                        <i class="fa-brands fa-x-twitter" id="x"></i>
+                    </a>
+
+                    <a href="https://www.twitch.tv/furiatv" target="_blank">
+                        <i class="fa-brands fa-twitch" id="twitch"></i>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="banner">
+                <img class="foto_time" src="/Src/Img/Furia_CBLOL_2024.2_Roster.webp" alt="Time da Furia">
+            </div>
+
+        </section>
+
+        <section class="Time">
+            <h2 class="sectiom_title">Time</h2>
+            <h3 class="section_subtittle">Nossos Jogadores</h3>
+            <div class="players">
+                <div class="toplaner">
+                    <div class="iconetop">
+                        <img class="icone_top" src="/Src/Img/top.jpg" alt="Top">
+                    </div>
+                    <img src="/Src/Img/FUR_Zzk_2024_Split_2.webp" alt="zzk">
+                    <h3 class="title_laner">ZZK</h3>
+                    <span class="description_laner">
+                        Name Kwon Hee-won (권희원) <br>
+                        Country of Birth: South Korea <br>
+                        Birthday: February 18, 2001 (age 23)<br>
+                        Residency: Korea
+                    </span>
+                </div>
+
+                <div class="jungle">
+                    <div class="iconejungle">
+                        <img class="icone_jungle" src="/Src/Img/jungle.jpg" alt="jungle">
+                    </div>
+                    <img src="/Src/Img/FUR_Wiz_2024_Split_2.webp" alt="Tutsz">
+                    <h3 class="title_laner">ZZK</h3>
+                    <span class="description_laner">
+                       
+                    </span>
+                </div>
+
+
+                <div class="mid">
+                    <div class="iconemid">
+                        <img class="icone_mid" src="/Src/Img/mid.jpg" alt="mid">
+                    </div>
+                    <img src="/Src/Img/FUR_Tutsz_2024_Split_2.webp" alt="Tutsz">
+                    <h3 class="title_laner">Tutsz</h3>
+                    <span class="description_laner">
+                        Name: Arthur Peixoto Machado <br>
+                        Country of Birth: Brazil <br>
+                        Birthday: December 16, 2002 (age 21)<br>
+                        Residency: Brazil
+                    </span>
+                </div>
+
+                <div class="adc">
+                    <div class="iconeadc">
+                        <img class="icone_adc" src="/Src/Img/adc.jpg" alt="adc">
+                    </div>
+                    <img src="/Src/Img/FUR_Ayu_2024_Split_2.webp" alt="Ayu">
+                    <h3 class="title_laner">Ayu</h3>
+                    <span class="description_laner">
+                        Name:Andrey Saraiva <br>
+                        Country of Birth: Brazil <br>
+                        Birthday: October 6, 2005 (age 18)<br>
+                        Residency: Brazil
+                    </span>
+                </div>
+
+                <div class="adc">
+                    <div class="iconeadc">
+                        <img class="icone_suporte" src="/Src/Img/suporte.jpg" alt="suporte">
+                    </div>
+                    <img src="/Src/Img/FUR_JoJo_2024_Split_2.webp" alt="Jojo">
+                    <h3 class="title_laner">Ayu</h3>
+                    <span class="description_laner">
+                        Name:Andrey Saraiva <br>
+                        Country of Birth: Brazil <br>
+                        Birthday: October 6, 2005 (age 18)<br>
+                        Residency: Brazil
+                    </span>
+                </div>
+
+
+
+
+
+            </div>
+        </section>
+
+    </main>
 </body>
+
 </html>

@@ -32,19 +32,16 @@ header{
     font-weight: 600;
 }
 
-/* .nav_item.active a{
-    color: black;
-    border-bottom: 3px solid rgb(235, 235, 0);
-} */
+
 
 .flag {
     position: absolute;
-    width: 50px; /* Ajuste a largura conforme necessário */
-    height: 5px; /* Ajuste a altura conforme necessário */
-    background-color: red; /* Cor da flag */
-    top: 60px; /* Alinhamento vertical */
-    left: 0; /* Inicia à esquerda */
-    transition: left 0.3s ease; /* Suave transição */
+    width: 50px; 
+    height: 5px; 
+    background-color: red; 
+    top: 60px;
+    left: 0; 
+    transition: left 0.3s ease;
 }
 
 

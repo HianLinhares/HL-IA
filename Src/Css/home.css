@@ -32,9 +32,9 @@ span{
 
 .foto_time{
     display: flex;
-    border: 1px solid ; /* Borda sólida roxa de 5px */
+    border: 1px solid ;
     border-radius: 0 120px 0 120px;
-    box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.4); /* Sombra */
+    box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.4);
     max-width: 100%;
     min-width: 50%;
     height: auto;

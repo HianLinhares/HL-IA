@@ -22,5 +22,5 @@ function moveSlide(step) {
     showSlide(currentSlide + step);
 }
 
-// Exibe o slide inicial
+
 showSlide(currentSlide);

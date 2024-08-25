@@ -17,14 +17,14 @@
 }
 
 .slide.active {
-    display: block; /* Exibe apenas o slide ativo */
+    display: block; 
 }
 
 .slide img {
     width: 120%;
-    height: 600px; /* Defina a altura fixa desejada */
-    object-fit: cover; /* Faz a imagem cobrir a área do slide mantendo a proporção */
-    border-radius: 20px; /* Aplica o mesmo arredondamento a todos os cantos */
+    height: 600px; 
+    object-fit: cover; 
+    border-radius: 20px; 
 }
 
 .prev, .next {
@@ -37,7 +37,7 @@
     color: white;
     font-weight: bold;
     font-size: 18px;
-    border-radius: 20px; /* Aplica o mesmo arredondamento a todos os cantos */
+    border-radius: 20px;
     user-select: none;
     background-color: rgba(0,0,0,0.5);
     text-decoration: none;

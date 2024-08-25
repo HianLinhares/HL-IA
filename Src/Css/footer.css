@@ -1,42 +1,42 @@
 footer {
-    background-color: #f1f1f1; /* Cor de fundo do rodapé */
-    padding: 20px; /* Espaçamento interno */
-    text-align: center; /* Alinhamento do texto */
-    border-top: 1px solid #ddd; /* Linha superior */
+    background-color: #f1f1f1; 
+    padding: 20px; 
+    text-align: center; 
+    border-top: 1px solid #ddd; 
 }
 
 .footer-content {
-    max-width: 1200px; /* Largura máxima do conteúdo */
-    margin: 0 auto; /* Centraliza o conteúdo */
+    max-width: 1200px; 
+    margin: 0 auto; 
 }
 
 footer p {
-    margin: 10px 0; /* Margem superior e inferior */
+    margin: 10px 0;
 }
 
 footer nav ul {
-    list-style: none; /* Remove os marcadores da lista */
-    padding: 0; /* Remove o padding */
+    list-style: none; 
+    padding: 0; 
 }
 
 footer nav ul li {
-    display: inline; /* Exibe os itens em linha */
-    margin: 0 10px; /* Margem lateral */
+    display: inline;
+    margin: 0 10px;
 }
 
 footer nav ul li a {
-    text-decoration: none; /* Remove o sublinhado dos links */
-    color: #333; /* Cor dos links */
+    text-decoration: none;
+    color: #333; 
 }
 
 footer nav ul li a:hover {
-    text-decoration: underline; /* Sublinha o link ao passar o mouse */
+    text-decoration: underline; 
 }
 
 .footer-contact {
-    margin-top: 20px; /* Espaçamento acima da seção de contato */
+    margin-top: 20px;
 }
 
 .footer-contact p {
-    margin: 5px 0; /* Margem superior e inferior */
+    margin: 5px 0;
 }

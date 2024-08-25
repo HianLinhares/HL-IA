@@ -1,0 +1,52 @@
+.momentos {
+    text-align: center;
+    padding: 50px;
+    position: relative;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slide {
+    display: none; /* Inicia com todos os slides ocultos */
+}
+
+.slide.active {
+    display: block; /* Exibe apenas o slide ativo */
+}
+
+.slide img {
+    width: 120%;
+    height: 600px; /* Defina a altura fixa desejada */
+    object-fit: cover; /* Faz a imagem cobrir a área do slide mantendo a proporção */
+    border-radius: 20px; /* Aplica o mesmo arredondamento a todos os cantos */
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 20px; /* Aplica o mesmo arredondamento a todos os cantos */
+    user-select: none;
+    background-color: rgba(0,0,0,0.5);
+    text-decoration: none;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}

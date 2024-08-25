@@ -14,7 +14,9 @@
     <link rel="stylesheet" href="/Src/Css/header.css">
     <link rel="stylesheet" href="/Src/Css/home.css">
     <link rel="stylesheet" href="/Src/Css/players.css">
-    <script src="/Src/Javascript/script.js"></script>
+    <link rel="stylesheet" href="/Src/Css/estatisticas.css">
+    <link rel="stylesheet" href="/Src/Css/carrosel.css">
+    <link rel="stylesheet" href="/Src/Css/footer.css">
     <!-- Link para os ícones font awesome cdn librarys -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
@@ -30,63 +32,50 @@
     <header>
         <nav class="navbar">
             <img src="/Src/Img/Furia_Esports_logo.png" alt="Logo da Furia" class=nav_logo>
-
+        
             <ul class="nav_list">
                 <li class="nav_item active">
                     <a href="#home">Inicio</a>
                 </li>
-
                 <li class="nav_item">
                     <a href="#Time">Time</a>
                 </li>
-
                 <li class="nav_item">
-                    <a href="#Sobre a Furia LoL">Sobre a Furia LoL</a>
+                    <a href="#estatisticas">Estatísticas</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#momentosdotime">Momentos do time</a>
                 </li>
 
                 <li class="nav_item">
-                    <a href="#Calendário">Calendário</a>
+                    <a href="https://furia.gg/" target="_blank">Nosso site</a>
                 </li>
+
+
             </ul>
-            <button class="btn-default"> Descubra sobre a Furia LOL</button>
-            <button class="mobile_btn">
-                <i class="fa-solid fa-bars"></i>
-            </button>
+          
+                <a class="link_youtube" href="https://www.youtube.com/@FURIAggLOL/videos" target="_blank"> Bastidores da nossa jornada </a>
+
         </nav>
 
-        <div class="mobile_menu">
-            <ul class="mobile_nav_list">
-                <li class="nav_item">
-                    <a href="#home">Inicio</a>
-                </li>
 
-                <li class="nav_item">
-                    <a href="#Time">Time</a>
-                </li>
-
-                <li class="nav_item">
-                    <a href="#Sobre a Furia LoL">Sobre a Furia LoL</a>
-                </li>
-
-                <li class="nav_item">
-                    <a href="#Calendário">Calendário</a>
-                </li>
-            </ul>
-            <button class="mobile_btn-default"> Descubra sobre a Furia LOL</button>
-        </div>
 
     </header>
 
     <main class="content">
-        <section class="home">
+        <section class="home" id="home">
             <div class="shape"></div>
             <div class="cta">
                 <h1 class="title">Vamo
-                    <span>Furia</span>
+                    <span>FURIAAA</span>
                 </h1>
-                <p class="description">Conheça a FURIA LOL. FURIA Esports é uma organização brasileira de esportes
-                    eletrônicos
-                    fundada no ano de 2017. Atualmente, ela possui enorme notoriedade por ser a melhor equipe do Brasil
+                <p class="description">Somos FURIA. Uma organização de esports que nasceu do desejo de
+                    representar o Brasil no CS e conquistou muito mais que isso: expandimos
+                    nossas ligas, disputamos os principais títulos, adotamos novos objetivos e
+                    ganhamos um propósito maior. Somos muito mais que o sucesso competitivo.
+                    Somos um movimento sociocultural.</p>
+                    
+
                 </p>
 
                 <div class="social">
@@ -111,9 +100,9 @@
 
         </section>
 
-        <section class="Time">
-            <h2 class="sectiom_title">Time</h2>
-            <h3 class="section_subtittle">Nossos Jogadores</h3>
+        <section class="Time" id="Time">
+            <h2 class="section_title">Time</h2>
+            <br>
             <div class="players">
                 <div class="toplaner">
                     <div class="iconetop">
@@ -122,21 +111,25 @@
                     <img src="/Src/Img/FUR_Zzk_2024_Split_2.webp" alt="zzk">
                     <h3 class="title_laner">ZZK</h3>
                     <span class="description_laner">
-                        Name Kwon Hee-won (권희원) <br>
-                        Country of Birth: South Korea <br>
-                        Birthday: February 18, 2001 (age 23)<br>
-                        Residency: Korea
+                        Nome Kwon Hee-won (권희원) <br>
+                        País de nascimento: South Korea <br>
+                        Nascimento: 18/02/2001 <br> (Idade 23)
+                  
                     </span>
                 </div>
 
                 <div class="jungle">
                     <div class="iconejungle">
-                        <img class="icone_jungle" src="/Src/Img/jungle.jpg" alt="jungle">
+                        <img class="icone_jungle" src="/Src/Img/jungle2.jpg" alt="jungle">
                     </div>
-                    <img src="/Src/Img/FUR_Wiz_2024_Split_2.webp" alt="Tutsz">
-                    <h3 class="title_laner">ZZK</h3>
+                    <img src="/Src/Img/FUR_Wiz_2024_Split_2.webp" alt="Wiz">
+                    <h3 class="title_laner">Wiz</h3>
                     <span class="description_laner">
-                       
+                        Nome: Na Yoo-joon (나유준) <br>
+                        País de nascimento: South Korea<br>
+                        Nascimento: 23/04/1998 <br>
+                        (Idade: 26) <br>
+                  
                     </span>
                 </div>
 
@@ -148,10 +141,11 @@
                     <img src="/Src/Img/FUR_Tutsz_2024_Split_2.webp" alt="Tutsz">
                     <h3 class="title_laner">Tutsz</h3>
                     <span class="description_laner">
-                        Name: Arthur Peixoto Machado <br>
-                        Country of Birth: Brazil <br>
-                        Birthday: December 16, 2002 (age 21)<br>
-                        Residency: Brazil
+                        Nome: Arthur Peixoto Machado <br>
+                        País de nascimento: Brazil <br>
+                        Nascimento: 16/12/2002 <br>
+                        (Idade: 21)
+                   
                     </span>
                 </div>
 
@@ -162,24 +156,26 @@
                     <img src="/Src/Img/FUR_Ayu_2024_Split_2.webp" alt="Ayu">
                     <h3 class="title_laner">Ayu</h3>
                     <span class="description_laner">
-                        Name:Andrey Saraiva <br>
-                        Country of Birth: Brazil <br>
-                        Birthday: October 6, 2005 (age 18)<br>
-                        Residency: Brazil
+                        Nome: Andrey Saraiva <br>
+                        País de nascimento: Brazil <br>
+                        Nascimento: 6/10/2005 <br>
+                        (Idade: 18) <br>
+                    
                     </span>
                 </div>
 
                 <div class="adc">
                     <div class="iconeadc">
-                        <img class="icone_suporte" src="/Src/Img/suporte.jpg" alt="suporte">
+                        <img class="icone_suporte" src="/Src/Img/icon-position-utility.png" alt="suporte">
                     </div>
                     <img src="/Src/Img/FUR_JoJo_2024_Split_2.webp" alt="Jojo">
-                    <h3 class="title_laner">Ayu</h3>
+                    <h3 class="title_laner">Jojo</h3>
                     <span class="description_laner">
-                        Name:Andrey Saraiva <br>
-                        Country of Birth: Brazil <br>
-                        Birthday: October 6, 2005 (age 18)<br>
-                        Residency: Brazil
+                        Nome: Andrey Saraiva <br>
+                        País de nascimento: Brazil <br>
+                        Nascimento: 11/11/1998 <br>
+                        (Idade: 25) <br>
+    
                     </span>
                 </div>
 
@@ -190,7 +186,76 @@
             </div>
         </section>
 
+        <section class="sobre_a_furia" id="estatisticas">
+            <img class="img_estatistica" src="/Src/Img/furia-vitoria-cblol-2024-1024x682.webp" alt="vitória do time">
+            <div class="estatisticas">
+
+                <h2 class="section_title">Estatísticas</h2>
+                <div class="fatos">
+
+                    <div class="dados">
+                        <p> <destaque>202</destaque> partidas em sua história</p>
+                    </div>
+
+                    <div class="dados">
+                        <p><destaque>12</destaque> torneios disputados </p>
+                           
+                    </div>
+
+                    <div class="dados">
+                        <p><destaque>55%</destaque> de taxa de vitória por jogo</p>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </section>
+
+        <section id="momentosdotime" class="momentos">
+            <h2>Momentos da Fúria no CBLOL</h2><br>
+            <div class="carousel">
+                <div class="slide active">
+                    <img src="/Src/Img/carrosel6.webp" alt="Momento 1">
+                </div>
+                <div class="slide">
+                    <img src="/Src/Img/carrosel2.jpg" alt="Momento 2">
+                </div>
+                <div class="slide">
+                    <img src="/Src/Img/carrosel3.jpg" alt="Momento 3">
+                </div>
+                <div class="slide">
+                    <img src="/Src/Img/carrosel4.jpg" alt="Momento 4">
+                </div>
+                <div class="slide">
+                    <img src="/Src/Img/carrosel5.jpg" alt="Momento 5">
+                </div>
+                <div class="slide">
+                    <img src="/Src/Img/carrosel1.webp" alt="Momento 6">
+                </div>
+                <div class="slide">
+                    <img src="/Src/Img/carrosel7.webp" alt="Momento 7">
+                </div>
+                <!-- Controles de navegação -->
+                <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
+                <a class="next" onclick="moveSlide(1)">&#10095;</a>
+            </div>
+        </section>
+        <script src="/Src/Javascript/script.js"></script>
+        
+
+
     </main>
+
+    
+        <footer>
+            <div class="footer-content">
+                <p>&copy; 2024 Furia. All Rights Reserved</p>
+            </div>
+        </footer>
+
+
 </body>
 
 </html>

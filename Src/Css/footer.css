@@ -1,0 +1,42 @@
+footer {
+    background-color: #f1f1f1; /* Cor de fundo do rodapé */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+    border-top: 1px solid #ddd; /* Linha superior */
+}
+
+.footer-content {
+    max-width: 1200px; /* Largura máxima do conteúdo */
+    margin: 0 auto; /* Centraliza o conteúdo */
+}
+
+footer p {
+    margin: 10px 0; /* Margem superior e inferior */
+}
+
+footer nav ul {
+    list-style: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o padding */
+}
+
+footer nav ul li {
+    display: inline; /* Exibe os itens em linha */
+    margin: 0 10px; /* Margem lateral */
+}
+
+footer nav ul li a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #333; /* Cor dos links */
+}
+
+footer nav ul li a:hover {
+    text-decoration: underline; /* Sublinha o link ao passar o mouse */
+}
+
+.footer-contact {
+    margin-top: 20px; /* Espaçamento acima da seção de contato */
+}
+
+.footer-contact p {
+    margin: 5px 0; /* Margem superior e inferior */
+}

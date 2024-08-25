@@ -11,7 +11,7 @@
     margin-left: 80px;
 }
 
-
+/* Estiliza cada jogador */
 .players > div {
     flex: 1 1 20%;
     max-width: 250px;
@@ -33,6 +33,7 @@
 .players img:not(.icone_top):not(.icone_jungle):not(.icone_mid):not(.icone_adc) :not(.icone_suporte) {
     width: 100%;
     border-radius: 8px;
+}
 
 .description_laner{
     font-size: 12px;
@@ -48,4 +49,9 @@
  
 }
 
+.section_title_time{
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }

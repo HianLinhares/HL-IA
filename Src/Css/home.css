@@ -51,3 +51,11 @@ span{
 a{
     text-decoration: none;
 }
+
+
+@media only screen and (min-width: 1440px) {
+    .foto_time{
+        width: 100vh;
+        height: 85vh;
+    }
+}

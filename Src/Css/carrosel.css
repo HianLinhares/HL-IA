@@ -50,3 +50,13 @@
 .next {
     right: 0;
 }
+
+
+@media only screen and (min-width: 1440px) {
+    .slide img {
+        width: 100vh;
+        height: 60vh;
+        object-fit: cover; 
+        border-radius: 20px; 
+    }
+  }
